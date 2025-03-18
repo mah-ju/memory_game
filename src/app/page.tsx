@@ -49,7 +49,7 @@ export default function Home() {
 
         if (matchedCards.length + 2 === cards.length) {
           setTimeout(() => {
-            alert("Parabéns! Você ganhou");
+            alert("Você ganhou!");
             setCards(shuffleArray(allCards));
             setFlippedCards([]);
             setMatchedCards([]);
